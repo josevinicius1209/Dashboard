@@ -15,9 +15,8 @@ export const Container = styled.div`
 `;
 
 //x x x x x x x x x x x x x x x x x x x x x x x x x x x x x
-//div que guarda o título "Painel de controle" e a div do boxes
 export const Principal = styled.div`
-    padding-top:110px;
+    padding-top: 110px;
     display: flex;
     flex-direction: column;
     margin: 30px 30px;
@@ -37,7 +36,7 @@ export const Principal = styled.div`
 export const DataDiv = styled.div`
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     grid-gap: 10px;
     flex-wrap: wrap;
     width: 100%;
@@ -49,11 +48,10 @@ export const DataDiv = styled.div`
     }
 `;
 
-//div que guarda a coluna esquerda de boxes:
-//Histórico, Inspeções, Planos de ação e Inspeções agendadas
-export const LeftDiv = styled.div`
+//div que guarda a coluna direita de boxes:
+export const RightDiv = styled.div`
     display: grid;
-    grid-template-rows: 300px 340px 325px;
+    grid-template-rows: 100px repeat(3, 220px);
     align-self: center;
     grid-gap: 10px;
     box-sizing: border-box;
@@ -67,7 +65,7 @@ export const LeftDiv = styled.div`
 `;
 
 //div que guarda os boxes "Inspeções" e "Planos de ação" na coluna esquerda
-export const SubLeftDiv = styled.div`
+export const SubRigtDiv = styled.div`
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 10px;
@@ -80,9 +78,10 @@ export const SubLeftDiv = styled.div`
 `;
 
 //div que guarda a coluna direita de boxes
-export const RightDiv = styled.div`
+export const LeftDiv = styled.div`
     display: grid;
-    grid-template-rows: 300px 675px;
+    grid-template-rows: 300px 475px;
+    grid-template-columns: 350px;
     grid-gap: 10px;
     box-sizing: border-box;
     align-self: center;

@@ -9,10 +9,8 @@ const Data3: React.FC = () => {
     return (
         <Box2>
             <Header>
-                <LittleTitle>Planos de ação d3</LittleTitle> 
-                <FaRegSun size="20px" />
+                <LittleTitle>grafico 2</LittleTitle> 
             </Header>
-            <SubTitle>status do dia d3</SubTitle>
         </Box2>
     );
 }

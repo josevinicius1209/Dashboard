@@ -36,7 +36,7 @@ export const EllipseDiv = styled.div`
 `;
 
 export const Options = styled.div`
-    width: 244px;
+    width: 60px;
     height: 100%;
     background-color: #C4C4C4;
     display: flex;

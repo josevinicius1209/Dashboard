@@ -10,8 +10,7 @@ const Data1: React.FC = () => {
         <HistBox>
             <AppProvider>
                 <Header>
-                    <LittleTitle>Histórico de eventos d1</LittleTitle>
-                    <Seletor />
+                    <LittleTitle>produto</LittleTitle>
                 </Header>
             </AppProvider>
         </HistBox>

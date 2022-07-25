@@ -61,7 +61,7 @@ export const PlansBox = styled.div`
     border-radius: 5px;
     padding: 15px;
     display: grid;
-    grid-template-rows: 20px 30px auto 30px;
+    grid-template-rows: 20px 180px;
     max-width: 1168px;
     overflow: hidden;
 

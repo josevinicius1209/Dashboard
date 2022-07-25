@@ -10,10 +10,8 @@ const Data5: React.FC = () => {
     return (
         <Box2Solo>
             <Header>
-                <LittleTitle>Data 5</LittleTitle>    
-                <FaRegSun size="20px" />
+                <LittleTitle>periodo</LittleTitle>    
             </Header>
-            <SubTitle>visão geral D5</SubTitle>
         </Box2Solo>
     );
 }
