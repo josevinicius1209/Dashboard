@@ -4,15 +4,15 @@ import  Sidebar  from './components/Sidebar/index';
 import { Container, Header } from './components/Divs/styles';
 import MainDiv from './components/Divs/Main';
 import AppProvider from './context/Provider';
-import { Topbar } from './components/Topbar/Topbar';
+import Topbar from './components/Topbar/index';
 
 function App() {
   return (
     <AppProvider>
       <Container>
         <GlobalStyle />
-        <Sidebar />
         <Topbar />
+        <Sidebar />
         <MainDiv/>
       </Container>
     </AppProvider>

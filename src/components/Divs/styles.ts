@@ -51,7 +51,7 @@ export const DataDiv = styled.div`
 //div que guarda a coluna direita de boxes:
 export const RightDiv = styled.div`
     display: grid;
-    grid-template-rows: 100px repeat(3, 220px);
+    grid-template-rows: 13vh repeat(3, 28vh);
     align-self: center;
     grid-gap: 10px;
     box-sizing: border-box;
@@ -80,8 +80,8 @@ export const SubRigtDiv = styled.div`
 //div que guarda a coluna direita de boxes
 export const LeftDiv = styled.div`
     display: grid;
-    grid-template-rows: 300px 475px;
-    grid-template-columns: 350px;
+    grid-template-rows: 38vh 61vh;
+    grid-template-columns: 25vw;
     grid-gap: 10px;
     box-sizing: border-box;
     align-self: center;
