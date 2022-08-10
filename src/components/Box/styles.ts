@@ -4,7 +4,7 @@ import styled from 'styled-components'
 //Box: Histórico de eventos
 export const HistBox = styled.div`
     display: grid;
-    grid-template-rows: 40px auto 30px;
+    grid-template-rows: 40px auto;
     width: 100%; 
     height: 100%;
     max-width: 1168px;
@@ -61,7 +61,7 @@ export const PlansBox = styled.div`
     border-radius: 5px;
     padding: 15px;
     display: grid;
-    grid-template-rows: 20px 180px;
+    grid-template-rows: auto;
     max-width: 1168px;
     overflow: hidden;
 
@@ -82,7 +82,7 @@ export const Box2 = styled.div`
     border-radius: 5px;
     padding: 15px;
     display: grid;
-    grid-template-rows: 20px 40px auto;
+    grid-template-rows: auto;
     max-width: 1168px;
     overflow: hidden;
 
@@ -95,9 +95,7 @@ export const Box2 = styled.div`
     }
 `;
 
-//esse é para o gráfico doughnut que não possui legenda
-//Box: Planos de ação
-export const Box2Solo = styled.div`
+export const Marketplaces = styled.div`
     width: 100%; 
     height: 100%;
     background: #FFFFFF;
@@ -106,13 +104,22 @@ export const Box2Solo = styled.div`
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     padding: 15px;
-    display: grid;
-    grid-template-rows: 20px 40px auto;
+    display: flex;
     max-width: 1168px;
     overflow: hidden;
-
-    @media(max-width: 860px){
-        height: 280px;
-        grid-template-rows: 20px 40px auto;
-    }
+    justify-content: space-around;
 `;
+
+export const Data51 = styled.div`
+
+    background: #FFFFFF;
+    display: block; 
+    
+`
+
+export const Data41 = styled.div`
+
+    background: #FFFFFF;
+    display: block; 
+    
+`

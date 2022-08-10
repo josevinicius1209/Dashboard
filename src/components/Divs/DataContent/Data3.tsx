@@ -1,18 +1,58 @@
-import React from 'react'
-import { Box2 } from '../../Box/styles';
-import { Header } from '../styles';
-import { LittleTitle, SubTitle } from '../../Text/styles';
-import { FaRegSun} from 'react-icons/fa'
-
+import React from "react";
+import { PlansBox } from "../../Box/styles";
+import ReactApexChart from "react-apexcharts";
 
 const Data3: React.FC = () => {
-    return (
-        <Box2>
-            <Header>
-                <LittleTitle>grafico 2</LittleTitle> 
-            </Header>
-        </Box2>
-    );
-}
+  const options = {
+    chart: {
+      height: 350,
+    },
+    title: {
+      text: "Gráfico 2",
+      style: {
+        fontSize: "15px",
+      },
+    },
+    colors: ["#008FFB"],
+  };
+
+  const series = [
+    {
+      name: "Metric1",
+      data: [31, 40, 28, 51, 42, 109, 100],
+    },
+    {
+      name: "Metric2",
+      data: [31, 40, 28, 51, 42, 109, 100],
+    },
+    {
+      name: "Metric3",
+      data: [80, 40, 28, 51, 42, 109, 100],
+    },
+    {
+      name: "Metric4",
+      data: [31, 40, 28, 51, 42, 109, 100],
+    },
+    {
+      name: "Metric5",
+      data: [31, 40, 28, 51, 42, 109, 100],
+    },
+    {
+      name: "Metric6",
+      data: [31, 40, 28, 51, 42, 109, 100],
+    },
+  ];
+
+  return (
+    <PlansBox>
+      <ReactApexChart
+        type="heatmap"
+        options={options}
+        series={series}
+        height="85%"
+      />
+    </PlansBox>
+  );
+};
 
 export default Data3;

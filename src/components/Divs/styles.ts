@@ -16,10 +16,8 @@ export const Container = styled.div`
 
 //x x x x x x x x x x x x x x x x x x x x x x x x x x x x x
 export const Principal = styled.div`
-    padding-top: 110px;
     display: flex;
     flex-direction: column;
-    margin: 30px 30px;
     justify-content: center;
     box-sizing: border-box;
     width: 100%;
@@ -34,9 +32,11 @@ export const Principal = styled.div`
 
 //div que guarda os boxes
 export const DataDiv = styled.div`
+    padding-left: 20px;
     height: 100%;
+    padding-top: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     grid-gap: 10px;
     flex-wrap: wrap;
     width: 100%;
@@ -51,11 +51,12 @@ export const DataDiv = styled.div`
 //div que guarda a coluna direita de boxes:
 export const RightDiv = styled.div`
     display: grid;
-    grid-template-rows: 13vh repeat(3, 28vh);
+    grid-template-rows: 10vh 75vh;
+    grid-template-columns: 60vw;
     align-self: center;
     grid-gap: 10px;
     box-sizing: border-box;
-    min-width: 600px;
+    min-width: 30vw;
 
     @media(max-width: 860px){
         margin: 0 20px;
@@ -64,10 +65,11 @@ export const RightDiv = styled.div`
     }
 `;
 
-//div que guarda os boxes "Inspeções" e "Planos de ação" na coluna esquerda
+//div que guarda os boxes na coluna esquerda
 export const SubRigtDiv = styled.div`
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 30vw 30vw;
+    grid-template-rows: 25vh;
     grid-gap: 10px;
     max-width: 1168px;
 
@@ -77,11 +79,11 @@ export const SubRigtDiv = styled.div`
     }
 `;
 
-//div que guarda a coluna direita de boxes
+//div que guarda a coluna esquerda de boxes
 export const LeftDiv = styled.div`
     display: grid;
-    grid-template-rows: 38vh 61vh;
-    grid-template-columns: 25vw;
+    grid-template-rows: 25vh 60vh;
+    grid-template-columns: 20vw;
     grid-gap: 10px;
     box-sizing: border-box;
     align-self: center;
@@ -100,7 +102,7 @@ export const LeftDiv = styled.div`
     }
 `;
 
-//uso para os títulos de cada box
+//os títulos de cada box
 export const Header = styled.div`
     display: flex;
     justify-content: space-between;

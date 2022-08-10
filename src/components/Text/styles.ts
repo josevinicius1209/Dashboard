@@ -21,6 +21,8 @@ export const LittleTitle = styled.div`
     font-size: 14px;
     line-height: 21px;
     color: #333333;
+    padding-right: 5px;
+    
 `;
 
 //subtítulo do boxes (textos em cinza)
