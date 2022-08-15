@@ -14,7 +14,6 @@ export const Container = styled.div`
     }
 `;
 
-//x x x x x x x x x x x x x x x x x x x x x x x x x x x x x
 export const Principal = styled.div`
     display: flex;
     flex-direction: column;
@@ -30,7 +29,7 @@ export const Principal = styled.div`
     }
 `;
 
-//div que guarda os boxes
+
 export const DataDiv = styled.div`
     padding-left: 20px;
     height: 100%;
@@ -48,7 +47,6 @@ export const DataDiv = styled.div`
     }
 `;
 
-//div que guarda a coluna direita de boxes:
 export const RightDiv = styled.div`
     display: grid;
     grid-template-rows: 10vh 75vh;
@@ -65,7 +63,6 @@ export const RightDiv = styled.div`
     }
 `;
 
-//div que guarda os boxes na coluna esquerda
 export const SubRigtDiv = styled.div`
     display: grid;
     grid-template-columns: 30vw 30vw;
@@ -79,7 +76,6 @@ export const SubRigtDiv = styled.div`
     }
 `;
 
-//div que guarda a coluna esquerda de boxes
 export const LeftDiv = styled.div`
     display: grid;
     grid-template-rows: 25vh 60vh;
@@ -102,9 +98,15 @@ export const LeftDiv = styled.div`
     }
 `;
 
-//os títulos de cada box
 export const Header = styled.div`
     display: flex;
     justify-content: space-between;
-    width: 100%
+    width: 100%;
+`;
+
+export const HeaderBlue = styled.div`
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    background: #1976d2;
 `;

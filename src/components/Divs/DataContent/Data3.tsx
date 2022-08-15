@@ -5,7 +5,7 @@ import ReactApexChart from "react-apexcharts";
 const Data3: React.FC = () => {
   const options = {
     chart: {
-      height: 350,
+      height: 400,
     },
     title: {
       text: "Gráfico 2",
@@ -49,7 +49,7 @@ const Data3: React.FC = () => {
         type="heatmap"
         options={options}
         series={series}
-        height="85%"
+        height="90%"
       />
     </PlansBox>
   );

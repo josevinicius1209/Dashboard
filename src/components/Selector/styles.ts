@@ -10,7 +10,7 @@ export const Ellipse = styled.div<EllipseType>`
     height: ${({height}) => height}px;
     left: 743px;
     top: 97px;
-    background: #C4C4C4;
+    background:  #008FFB;
     border-radius: 10px;
     margin-right: 2%;
     display: flex;
@@ -38,7 +38,7 @@ export const EllipseDiv = styled.div`
 export const Options = styled.div`
     width: 60px;
     height: 100%;
-    background-color: #C4C4C4;
+    background-color: #008FFB;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

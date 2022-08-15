@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-//"Painel de Controle"
 export const Title = styled.div`
     font-size: 25px;
     font-weight: 500;
@@ -15,7 +14,6 @@ export const Title = styled.div`
     }
 `;
 
-//título dos boxes
 export const LittleTitle = styled.div`
     font-weight: 600;
     font-size: 14px;
@@ -25,7 +23,6 @@ export const LittleTitle = styled.div`
     
 `;
 
-//subtítulo do boxes (textos em cinza)
 export const SubTitle = styled.div`
     width: 175px;
     height: 11px;
@@ -39,12 +36,11 @@ export const SubTitle = styled.div`
     color: #B0B0B0;
 `;
 
-//texto das legendas
 export const LegendText = styled.div`
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
-    font-size: 9px;
+    font-size: 13px;
     line-height: 17px;
     color: #161616;
 `;

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-//Box: Histórico de eventos
+
 export const HistBox = styled.div`
     display: grid;
     grid-template-rows: 40px auto;
@@ -15,6 +15,7 @@ export const HistBox = styled.div`
     border-radius: 5px;
     padding: 15px;
     overflow: hidden;
+    
 
     @media(max-width: 560px){
         height: 100%;
@@ -25,7 +26,6 @@ export const HistBox = styled.div`
     }
 `;
 
-//Box: Inspeções agendadas
 export const Box = styled.div`
     width: 100%; 
     height: 100%;
@@ -50,7 +50,6 @@ export const Box = styled.div`
     }
 `;
 
-//Box: Lista de planos de ação
 export const PlansBox = styled.div`
     width: 100%; 
     height: 100%;
@@ -60,8 +59,7 @@ export const PlansBox = styled.div`
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
     border-radius: 5px;
     padding: 15px;
-    display: grid;
-    grid-template-rows: auto;
+    display: inherit;
     max-width: 1168px;
     overflow: hidden;
 
@@ -70,8 +68,6 @@ export const PlansBox = styled.div`
     }
 `;
 
-//uso esse para os compartimentos com gráficos doughnut que possuem uma legenda maior
-//Box: Inspeções e Planos de ação
 export const Box2 = styled.div`
     width: 100%; 
     height: 100%;
@@ -121,5 +117,6 @@ export const Data41 = styled.div`
 
     background: #FFFFFF;
     display: block; 
+    margin-top: 50px;
     
 `

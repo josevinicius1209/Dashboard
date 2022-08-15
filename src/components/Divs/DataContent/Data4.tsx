@@ -35,7 +35,9 @@ const Data4: React.FC = () => {
         </LocalizationProvider>
         <Seletor />
       </Header>
-      <Data41></Data41>
+      <Data41>
+        <DataGrid style={{ height: 450, width: "100%" }} {...data} />
+      </Data41>
     </Box>
   );
 };

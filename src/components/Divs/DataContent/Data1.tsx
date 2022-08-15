@@ -1,17 +1,19 @@
 import React from "react";
 import { HistBox } from "../../Box/styles";
-import { Header } from "../styles";
-import { LittleTitle } from "../../Text/styles";
-import AppProvider from "../../../context/Provider";
+import { HeaderBlue } from "../styles";
+import { LegendText, LittleTitle } from "../../Text/styles";
+import Galaxy from "../../../assets/Galaxy.png";
 
 const Data1: React.FC = () => {
   return (
     <HistBox>
-      <AppProvider>
-        <Header>
-          <LittleTitle>produto</LittleTitle>
-        </Header>
-      </AppProvider>
+      <HeaderBlue>
+        <LittleTitle>Galaxy S21 (128GB)</LittleTitle>
+      </HeaderBlue>
+      <HeaderBlue>
+        <LegendText>RRP: R$5.999,99</LegendText>
+      </HeaderBlue>
+      <img src={Galaxy} alt="Galaxy" />
     </HistBox>
   );
 };
