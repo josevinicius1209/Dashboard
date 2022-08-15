@@ -108,5 +108,4 @@ export const HeaderBlue = styled.div`
     display: block;
     justify-content: space-between;
     width: 100%;
-    background: #1976d2;
 `;
